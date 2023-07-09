@@ -186,6 +186,19 @@ h2 {
     font-size: 18px;
     color: #e5e7eb;
 }
-
-
 /* sign-up */
+
+/* footer */
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+/* footer */
