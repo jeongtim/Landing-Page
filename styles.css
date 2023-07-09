@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 /* header */
@@ -79,7 +79,6 @@ button {
 /* section-1 */
 .section-1 {
     padding: 50px;
-    border: 1px solid;
 }
 
 h2 {
@@ -113,3 +112,27 @@ h2 {
     border-radius: 20px;
 }
 /* section-1 */
+
+/* quote */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+.quote {
+    max-width: 880px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quoted {  
+    margin-left: 500px;
+    font-size: 20px;
+    font-weight: bold;
+}
